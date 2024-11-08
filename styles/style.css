@@ -91,7 +91,7 @@
 .aligned-text {
   text-align: left;
   z-index: 1;
-  }
+}
 
 .aligned-text_center {
   text-align: center;
@@ -148,7 +148,7 @@
   position: relative;
   padding: 20px;
   gap: 25px;
- }
+}
 
 .lots__heading {
   font-size: 40px; 
@@ -190,7 +190,7 @@
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  }
+}
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
