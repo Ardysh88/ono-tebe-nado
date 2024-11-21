@@ -281,7 +281,7 @@
   flex-direction: column;
   position: relative;
   justify-content: center;
-  margin-top: 130px; /* центр логотипа */
+  margin-top: 130px; 
   max-width: 693px;
 }
 
@@ -321,27 +321,27 @@
 .footer__menu {
  display: flex;
  text-align: center;
+ flex-direction: column;
  align-items: flex-start;
 }
 
 .footer__menu-list {
   list-style: none;
-  display: inline-block;
-}
+ }
 
 .footer__menu-list-item {
   font-size: 18px;
-  display: inline-block;
+  
 }
 
 .footer__menu-link {
   text-decoration: none;
-  display: inline-block;
   text-align: center;
+  text-decoration: underline;
 }
 
 .footer__menu-link_active {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .footer__social {
