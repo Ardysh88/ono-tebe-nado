@@ -4,7 +4,7 @@
   align-items: center;
   margin: 96px 0 90px 0;
   padding-left: 34px;
-  min-width: 100%;
+  min-width: 1052px;
   box-sizing: border-box;
 }
 
@@ -53,7 +53,7 @@
   font-style: normal;
   white-space: nowrap;
   display: grid;
-  gap: 2px;
+  line-height: 1.35;
 }
 
 .cover{
@@ -70,7 +70,7 @@
 
 .cover__title {
   margin-top: 95px;
-  margin-bottom: 85px;
+  margin-bottom: 89px;
   width: 100%;
   line-height: 125px;
   color: #FFFFFF;
@@ -146,13 +146,12 @@
   border: 1px 0px 0px 0px;
   border: 1px solid #FFFFFF;
   z-index: 1; 
-  transform: translateY(37px)
+  transform: translateY(34px)
 }
 
 .lots {
-  margin-top: 159px;
+  margin-top: 179px;
   position: relative;
-  padding: 20px;
   gap: 25px;
 }
 
@@ -160,11 +159,12 @@
   font-size: 40px; 
   text-transform: uppercase;
   margin-bottom: 25px; 
-  margin-left: 40px; 
+  margin-left: 62px; 
   text-align: left; 
 }
 
 .lots__card-list {
+  margin-left: 24px;
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -179,12 +179,12 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-width: 334px;
-  min-height: 562px;
+  min-width: 333px;
+  min-height: 563px;
   background-size: cover; 
   background-position: center; 
   text-align: left;
-  padding: 48px 40px 40px 40px;
+  padding: 51px 40px 48px 40px;
 }
 
 .card_type_film {
@@ -224,17 +224,17 @@
 
 .lots__look-more-link {
   text-align: left;
-  margin-left: 44px;
+  margin-left: 64px;
   font-size: 20px;
   cursor: pointer;
   display: block; 
   position: absolute;
   top: 100%; 
-  transform: translateY(13px);
+  transform: translateY(30px);
 }
 
 .about {
-  margin-top: 190px;
+  margin-top: 98px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -254,8 +254,7 @@
 }
 
 .about__column-left {
-  margin-top: -350px;
-  padding: auto;
+  box-sizing: border-box;
   max-width: 359px;
   position: relative;
   justify-content: center;
@@ -278,11 +277,11 @@
 }
 
 .about__column-right {
+  transform: translateY(235px);
   display: flex;
   flex-direction: column;
   position: relative;
   justify-content: center;
-  margin-top: 130px; 
   max-width: 693px;
 }
 
@@ -302,13 +301,10 @@
 }
 
 .footer {
-  margin-bottom: 88px;
+  margin: 370px 50px 88px 50px;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
   width: 100%;
-  padding: 0 50px;
-  transform: translateY(130px);
 }
 
 .footer_address {
@@ -318,14 +314,16 @@
   font-size: 18px;
   list-style-type: none;
   font-style: normal;
+  line-height: 1.35;
+  margin-right: 225px;
 }
 
 .footer__menu {
- margin-left: 35px;
  display: flex;
  text-align: center;
  flex-direction: column;
  align-items: flex-start;
+ margin-right: 185px;
 }
 
 .footer__menu-list {
