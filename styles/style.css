@@ -244,7 +244,6 @@
   max-height: 595px;
   box-sizing: border-box;
 }
-
 .about__content {
   display: flex;
   align-items: center;
@@ -307,6 +306,7 @@
   font-size: 20px;
   white-space: pre-wrap;
   white-space: nowrap;
+  overflow-wrap: normal;
   line-height: 1.2;
 }
 
